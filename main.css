@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+    align-items: center;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 430px;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+form {
+    margin-bottom: 20px;
+}
+form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+form input[type="submit"] {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #ddd;
+    background-color: black;
+    border: none;
+}
